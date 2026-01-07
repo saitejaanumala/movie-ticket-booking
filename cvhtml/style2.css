@@ -1,0 +1,14 @@
+body {
+  background-image: url("ChatGPT\ Image\ Nov\ 12\,\ 2025\,\ 07_39_37\ PM.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    
+}
+h1,h2,h3{
+    color:chartreuse;
+}
+form{
+    color: white;
+}

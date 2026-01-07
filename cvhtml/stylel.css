@@ -1,0 +1,14 @@
+table,
+th,td{
+    position: relative;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5em 1em;
+}
+th{
+    background-color: chartreuse;
+}
+td{
+
+    background-color: cyan;
+}

@@ -1,0 +1,37 @@
+.container{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box{
+    border: solid green;
+    margin: 1em;
+   min-height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 100%;
+}
+.box1{
+    background-color:green;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+}
+.box2{
+    background-color: black;
+}
+.box3{
+    background-image: url("ChatGPT\ Image\ Nov\ 12\,\ 2025\,\ 07_39_37\ PM.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box4{
+    background-image: url("https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/content_entry5adf77af6eabcc00190b75b6/6075185986d092000b192d0a/files/best-free-travel-images-main-image-hd-op.webp");
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
